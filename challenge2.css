@@ -1,11 +1,19 @@
 * {
-  color: #000000;
+  /* color: #000000; */
   font-family: sans-serif;
   margin: 0;
   padding: 0;
   font-size: 16px;
 
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
+}
+
+body{
+  color: #000000;
+}
+
+.white {
+  color: white;
 }
 
 article {
@@ -25,7 +33,7 @@ article {
 }
 
 article::before {
-  content: "SALE";
+  content: 'SALE';
   font-size: 15px;
   letter-spacing: 2px;
   font-weight: bold;
@@ -43,6 +51,7 @@ h2 {
   font-size: 26px;
   text-align: center;
   background-color: aliceblue;
+  color: #000000  !important
   padding: 15px 0;
 
   grid-column: 1/-1;
@@ -148,11 +157,15 @@ button {
 
   grid-column: 1/-1;
 }
+.full_page {
+color: #000000;
+}
 
 .mid-section {
   /* width: 243px; */
   /* float: left; */
   /* margin-right: 40px; */
+  color: #000000;
   margin-top: 20px;
   flex: 1;
 }
@@ -171,6 +184,7 @@ button {
 }
 /* using flex box to decorate */
 .product-price {
+  /* color: #000000; */
   display: flex;
   justify-content: space-between;
   align-items: center;
