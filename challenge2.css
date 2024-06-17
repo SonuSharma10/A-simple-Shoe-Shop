@@ -8,13 +8,14 @@
   box-sizing: border-box;
 }
 
-body{
+body .full_page {
+  font-size: inherit;
   color: #000000;
 }
 
-.white {
+/* .white {
   color: white;
-}
+} */
 
 article {
   width: 825px;
@@ -46,12 +47,12 @@ article::before {
   top: -16px;
 }
 
-h2 {
+#head {
   text-transform: uppercase;
   font-size: 26px;
   text-align: center;
   background-color: aliceblue;
-  color: #000000  !important
+  color: #000000 !important;
   padding: 15px 0;
 
   grid-column: 1/-1;
@@ -80,7 +81,7 @@ p {
 strong {
   font-size: 35px;
   font-weight: bold;
-  color: black;
+  color: inherit;
 }
 
 .gray-color {
@@ -114,7 +115,7 @@ strong {
 }
 
 a:link {
-  color: black;
+  color: inherit;
 }
 
 a:visited {
@@ -158,14 +159,14 @@ button {
   grid-column: 1/-1;
 }
 .full_page {
-color: #000000;
+  color: #000000;
 }
 
 .mid-section {
   /* width: 243px; */
   /* float: left; */
   /* margin-right: 40px; */
-  color: #000000;
+  color: inherit;
   margin-top: 20px;
   flex: 1;
 }
@@ -187,6 +188,7 @@ color: #000000;
   /* color: #000000; */
   display: flex;
   justify-content: space-between;
+  gap: 15px;
   align-items: center;
   margin-bottom: 20px;
 }
