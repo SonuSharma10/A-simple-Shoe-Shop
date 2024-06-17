@@ -12,7 +12,8 @@ for (let color of colo) {
     // bg = style.getPropertyValue('background-color')
     // console.log(bg);
     if (current_color == 'black') {
-      body.classList.add('white');
+      // body.classList.add('white');
+      body.style.color = 'white';
       body.style.backgroundColor = current_color;
     } else body.style.backgroundColor = current_color;
   });
